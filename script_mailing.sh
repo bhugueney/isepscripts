@@ -8,3 +8,4 @@ grep "^From:" 2012.txt | sort -n | uniq -c >> mail.html
 echo "</p>" >> mail.html
 echo "</body></html>" >> mail.html
 
+test
